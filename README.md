@@ -14,7 +14,6 @@ The app's source lives in a separate, private repository.
 - Replace the "Coming soon" placeholder with Apple's official App Store badge, linked to the
   app's App Store URL.
 - Add the Smart App Banner tag in `index.html` (`apple-itunes-app`, with the app's Apple ID).
-- Replace every `<mark>` on the About page and the founder quote with the founder's own words.
 - Screenshots in `images/` are the App Store captures (fictional records), resized to 660 px.
   Re-export them when the app's screens change visibly.
 - Don't name booking platforms beyond what a feature factually does, and no platform logos.
