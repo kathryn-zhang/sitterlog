@@ -3,43 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SitterLog</title>
-  <meta name="description" content="SitterLog is a record-keeping app for independent pet sitters: visits, care checklists, mileage, expenses, income and tax-time summaries.">
+  <title>SitterLog — Records for Independent Pet Sitters</title>
+  <meta name="description" content="SitterLog is a record-keeping app for independent pet sitters: visits, care checklists, summary cards for pet parents, mileage, expenses, income and tax-time summaries.">
+  <meta name="apple-itunes-app" content="app-id=APP_ID">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
+<main class="wide">
   <header>
     <nav>
       <a href="./" aria-current="page">SitterLog</a>
-      <a href="privacy/">Privacy Policy</a>
+      <a href="about/">About</a>
       <a href="support/">Support</a>
+      <a href="privacy/">Privacy Policy</a>
     </nav>
   </header>
 
-  <h1>SitterLog</h1>
-  <p class="lede">The record-keeping app for independent pet sitters.</p>
+  <section class="hero">
+    <h1>Your pet-sitting records, kept like a business.</h1>
+    <p class="lede">SitterLog is the record-keeping app for independent pet sitters. Log each
+      visit, send pet parents a summary card, and keep every mile, expense and payment ready
+      for tax time.</p>
+    <p class="cta"><a href="APP_STORE_URL"><img src="images/app-store-badge.svg" width="150" height="50"
+      alt="Download on the App Store"></a></p>
+    <p class="meta">Free · No account · Nothing collected</p>
+  </section>
 
-  <p>Log each visit with its care checklist and notes, send pet parents a tidy summary card,
-    and keep your mileage, expenses and income in one place — ready when tax time comes.</p>
+  <section class="shots" aria-label="Screens from the app">
+    <figure>
+      <img src="images/summary-card.jpg" width="660" height="1434" loading="lazy"
+           alt="A summary card for a cat named Mango: a photo, the visit time, a completed care checklist and a note to the pet parent.">
+      <figcaption>A card pet parents will love</figcaption>
+    </figure>
+    <figure>
+      <img src="images/checklist.jpg" width="660" height="1434" loading="lazy"
+           alt="A visit's care checklist, built from the client's routine.">
+      <figcaption>Never miss a feeding or a pill</figcaption>
+    </figure>
+    <figure>
+      <img src="images/mileage.jpg" width="660" height="1434" loading="lazy"
+           alt="A visit's driving route on a map, with the miles it covered.">
+      <figcaption>Mileage from the route you drove</figcaption>
+    </figure>
+    <figure>
+      <img src="images/tax-year.jpg" width="660" height="1434" loading="lazy"
+           alt="The Tax Year screen: income, expenses and business miles for the year.">
+      <figcaption>Your year, organized for tax time</figcaption>
+    </figure>
+  </section>
 
-  <ul>
-    <li>Visits, recurring bookings and per-client care checklists</li>
-    <li>Summary cards for pet parents</li>
-    <li>Mileage from the addresses you type — no location tracking</li>
-    <li>Expenses with receipt photos, money received and invoices</li>
-    <li>A tax-year summary to bring to your accountant</li>
-  </ul>
+  <section class="pillars">
+    <div>
+      <h2>Ready for tax time</h2>
+      <p>Business miles from the addresses you type, expenses with receipt photos, and money
+        received by the year it arrived. Bring one tidy summary to whoever prepares your
+        return.</p>
+    </div>
+    <div>
+      <h2>Look like a business</h2>
+      <p>After each visit, share a card with the photo, the checklist and your note. Send a clean
+        invoice to your independent clients when it's time to be paid.</p>
+    </div>
+    <div>
+      <h2>Private by design</h2>
+      <p>Client addresses and door codes stay on your phone and in your own private iCloud.
+        No SitterLog account, no server, no ads and no tracking — the App Store privacy label
+        reads "Data Not Collected".</p>
+    </div>
+  </section>
 
-  <p>No account and nothing collected by us: your records stay on your devices and, if you use
-    iCloud, in your own private iCloud.</p>
+  <section class="founder">
+    <p>“SitterLog has helped me spend less time piecing together records and more time focusing on
+      the cats in my care.”</p>
+    <p class="meta">— Kathryn, cat sitter in Sunnyvale · <a href="about/">Read the story</a></p>
+  </section>
 
-  <p>SitterLog is not a booking platform and is not affiliated with any pet-care marketplace.
-    It does not give tax, legal or accounting advice.</p>
+  <section>
+    <h2>What SitterLog is not</h2>
+    <p>It isn't a booking platform or a marketplace, and it doesn't process payments. It never
+      logs in to or fetches anything from a pet-care platform, and it isn't affiliated with one.
+      It keeps records and summarizes them; it doesn't give tax, legal or accounting advice.</p>
+  </section>
 
   <hr>
   <footer>
-    <a href="privacy/">Privacy Policy</a> · <a href="support/">Support</a>
+    <a href="about/">About</a> · <a href="support/">Support</a> · <a href="privacy/">Privacy Policy</a>
   </footer>
 </main>
 </body>
